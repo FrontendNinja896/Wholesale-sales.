@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Справочники" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочники</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочники</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СправочникиРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Button name="Номенклатура" id="3">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Номенклатура</CommandName>
+					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="4"/>
+				</Button>
+				<Button name="Контрагент" id="5">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Контрагент</CommandName>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="6"/>
+				</Button>
+				<Button name="Склады" id="7">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Склады</CommandName>
+					<ExtendedTooltip name="СкладыРасширеннаяПодсказка" id="8"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Документы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ДокументыРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<Button name="ПоступлениеТоваров" id="11">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПоступлениеТоваров</CommandName>
+					<ExtendedTooltip name="ПоступлениеТоваровРасширеннаяПодсказка" id="12"/>
+				</Button>
+				<Button name="ПеремещениеТоваров" id="13">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПеремещениеТоваров</CommandName>
+					<ExtendedTooltip name="ПеремещениеТоваровРасширеннаяПодсказка" id="14"/>
+				</Button>
+				<Button name="РеализацияТоваров" id="15">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.РеализацияТоваров</CommandName>
+					<ExtendedTooltip name="РеализацияТоваровРасширеннаяПодсказка" id="16"/>
+				</Button>
+				<Button name="РасходДенег" id="17">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.РасходДенег</CommandName>
+					<ExtendedTooltip name="РасходДенегРасширеннаяПодсказка" id="18"/>
+				</Button>
+				<Button name="ПриходДенег" id="19">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПриходДенег</CommandName>
+					<ExtendedTooltip name="ПриходДенегРасширеннаяПодсказка" id="20"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Отчёты" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчёты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчёты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ОтчётыРасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<Button name="ОтчётПоПродажеТоваров" id="23">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОтчётПоПродажеТоваров</CommandName>
+					<ExtendedTooltip name="ОтчётПоПродажеТоваровРасширеннаяПодсказка" id="24"/>
+				</Button>
+				<Button name="ДвижениеИОстаткиТоваров" id="25">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ДвижениеИОстаткиТоваров</CommandName>
+					<ExtendedTooltip name="ДвижениеИОстаткиТоваровРасширеннаяПодсказка" id="26"/>
+				</Button>
+				<Button name="ОтчётПоВзаиморасчётам" id="27">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОтчётПоВзаиморасчётам</CommandName>
+					<ExtendedTooltip name="ОтчётПоВзаиморасчётамРасширеннаяПодсказка" id="28"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="РегистрыНакопления" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистры накопления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистры накопления</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="РегистрыНакопленияРасширеннаяПодсказка" id="30"/>
+			<ChildItems>
+				<Button name="ОстаткиТоваров" id="31">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОстаткиТоваров</CommandName>
+					<ExtendedTooltip name="ОстаткиТоваровРасширеннаяПодсказка" id="32"/>
+				</Button>
+				<Button name="Продажи" id="33">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Продажи</CommandName>
+					<ExtendedTooltip name="ПродажиРасширеннаяПодсказка" id="34"/>
+				</Button>
+				<Button name="Взаиморасчёты" id="35">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Взаиморасчёты</CommandName>
+					<ExtendedTooltip name="ВзаиморасчётыРасширеннаяПодсказка" id="36"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<Commands>
+		<Command name="Номенклатура" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Номенклатура</Action>
+		</Command>
+		<Command name="Контрагент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Контрагент</Action>
+		</Command>
+		<Command name="Склады" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склады</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Склады</Action>
+		</Command>
+		<Command name="ПоступлениеТоваров" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступление товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступление товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоступлениеТоваров</Action>
+		</Command>
+		<Command name="ПеремещениеТоваров" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перемещение товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перемещение товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПеремещениеТоваров</Action>
+		</Command>
+		<Command name="РеализацияТоваров" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реализация товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реализация товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РеализацияТоваров</Action>
+		</Command>
+		<Command name="РасходДенег" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход денег</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход денег</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РасходДенег</Action>
+		</Command>
+		<Command name="ПриходДенег" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приход денег</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приход денег</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПриходДенег</Action>
+		</Command>
+		<Command name="ОтчётПоПродажеТоваров" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчёт по продаже товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчёт по продаже товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчётПоПродажеТоваров</Action>
+		</Command>
+		<Command name="ДвижениеИОстаткиТоваров" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Движение и остатки товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Движение и остатки товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДвижениеИОстаткиТоваров</Action>
+		</Command>
+		<Command name="ОтчётПоВзаиморасчётам" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчёт по взаиморасчётам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчёт по взаиморасчётам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчётПоВзаиморасчётам</Action>
+		</Command>
+		<Command name="ОстаткиТоваров" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОстаткиТоваров</Action>
+		</Command>
+		<Command name="Продажи" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продажи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продажи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Продажи</Action>
+		</Command>
+		<Command name="Взаиморасчёты" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Взаиморасчёты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Взаиморасчёты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Взаиморасчёты</Action>
+		</Command>
+	</Commands>
+</Form>

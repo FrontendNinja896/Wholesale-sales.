@@ -245,8 +245,12 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Role>Клиент</Role>
+			<Role>Руководитель</Role>
+			<Role>Администратор</Role>
 			<CommonModule>НазначениеПрефикса</CommonModule>
 			<CommonModule>РассчётСуммы</CommonModule>
+			<CommonForm>РабочийСтол</CommonForm>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагент</Catalog>
 			<Catalog>Склады</Catalog>
