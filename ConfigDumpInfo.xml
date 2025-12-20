@@ -39,7 +39,7 @@
 		<Metadata name="CommonModule.РассчётСуммы.Module" id="4a829683-5829-4215-81f1-a66767a35153.0" configVersion="5375f49095bc504797e504414489708700000000"/>
 		<Metadata name="Configuration.Конфигурация" id="d0244465-aa4d-4847-a6f4-8a2ea7fa5f00" configVersion="515f194df81ff74dacc9c10f74e7c49d00000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="65475a69-581b-47da-a336-d1d574101514.6" configVersion="e0835ad6ac64f84d97fe5abf5e2b4d0a00000000"/>
-		<Metadata name="Document.ПеремещениеТоваров" id="e73d872a-62d4-42f9-a0e6-d75771761ae6" configVersion="f3e3e09224be7b43a9bbeed69767cf4700000000">
+		<Metadata name="Document.ПеремещениеТоваров" id="e73d872a-62d4-42f9-a0e6-d75771761ae6" configVersion="1e00a06551c9b2459191de7504050ca100000000">
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Количество" id="0968e586-37c2-4387-abf8-88f4b7de45b9"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.ТипНоменклатуры" id="0d0dd061-4492-41e3-b860-bcfc53cf9f85"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Номенклатура" id="2944d161-9f5b-4898-8180-ba471b1cd7db"/>
@@ -55,7 +55,7 @@
 		<Metadata name="Document.ПеремещениеТоваров.Form.ФормаДокумента.Form" id="041c50cd-96e2-4478-a6bd-00fce1c1b75d.0" configVersion="2da3c6444032984192cc18a70724e89500000000"/>
 		<Metadata name="Document.ПеремещениеТоваров.Help" id="e73d872a-62d4-42f9-a0e6-d75771761ae6.1" configVersion="73b38ab08df1b84b9031202e4bbd95f900000000"/>
 		<Metadata name="Document.ПеремещениеТоваров.ManagerModule" id="e73d872a-62d4-42f9-a0e6-d75771761ae6.2" configVersion="c1be1ca87b687e4598e9afe05ee4878500000000"/>
-		<Metadata name="Document.ПеремещениеТоваров.ObjectModule" id="e73d872a-62d4-42f9-a0e6-d75771761ae6.0" configVersion="af357265b9b49442ab5f33e3690df8e200000000"/>
+		<Metadata name="Document.ПеремещениеТоваров.ObjectModule" id="e73d872a-62d4-42f9-a0e6-d75771761ae6.0" configVersion="691e2fc4eaefbe48af59d9618061e88f00000000"/>
 		<Metadata name="Document.ПоступлениеТоваров" id="9fee80e4-47f7-42af-a639-f7367b17d4b1" configVersion="89421495443ef245846513c9cc7064ce00000000">
 			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары" id="01854a3d-ef00-49bf-a70c-48d42b3d32ad"/>
 			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.ТипНоменклатуры" id="2c490bbc-340c-47d1-99b5-573e9e1bc325"/>
