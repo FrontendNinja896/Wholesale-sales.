@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Enum uuid="aa52f07f-c1f4-4356-8462-94ae24130665">
+	<Enum uuid="85d166c6-2c5d-458c-a805-c2fbab23692f">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ТипНоменклатуры" category="Ref">
-				<xr:TypeId>46e0699f-f95e-4bb0-94a1-68f4bce4b2e8</xr:TypeId>
-				<xr:ValueId>83e7d919-f4b0-493f-acf9-5bd7fde1e0c3</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.ВидОперации" category="Ref">
+				<xr:TypeId>959f854b-365e-4e98-b7c9-d87ffbb3c46c</xr:TypeId>
+				<xr:ValueId>9edb7f5e-5545-478e-b54a-fb5ef028271c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ТипНоменклатуры" category="Manager">
-				<xr:TypeId>0ef9eb84-4aec-40ae-bb42-6497a37cbecf</xr:TypeId>
-				<xr:ValueId>208bd17b-36e8-4651-973f-091906795cfc</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.ВидОперации" category="Manager">
+				<xr:TypeId>0591ca27-a144-46c0-8166-16eeb228f875</xr:TypeId>
+				<xr:ValueId>e8d27f88-e421-409e-b770-3e2a1472a87a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ТипНоменклатуры" category="List">
-				<xr:TypeId>d27a38c2-38a0-45df-8bd0-6a3bfccff9f4</xr:TypeId>
-				<xr:ValueId>becd5951-abf0-41e2-9e1e-5c8605811d17</xr:ValueId>
+			<xr:GeneratedType name="EnumList.ВидОперации" category="List">
+				<xr:TypeId>7c228ce3-63c0-40e6-953b-a14c4db61f9a</xr:TypeId>
+				<xr:ValueId>2dec5862-8b5c-47ec-a586-5c850d649ced</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТипНоменклатуры</Name>
+			<Name>ВидОперации</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Тип номенклатуры</v8:content>
+					<v8:content>Вид операции</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -38,49 +38,37 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="e7c8d6be-4ab6-4366-8020-3ea0b6aa5cc8">
+			<EnumValue uuid="75801404-a331-4602-af15-1b29285ce04e">
 				<Properties>
-					<Name>Телефон</Name>
+					<Name>Поступление</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Телефон</v8:content>
+							<v8:content>Поступление</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="3be4e82d-477b-4434-9eba-d7f4f4f02624">
+			<EnumValue uuid="d67b1290-c908-41ee-8d55-0245e625e55e">
 				<Properties>
-					<Name>Планшет</Name>
+					<Name>Перемещение</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Планшет</v8:content>
+							<v8:content>Перемещение</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="cf2e9e7d-ec34-4a2a-a352-f54ca90ffb6c">
+			<EnumValue uuid="261add20-0e4c-4a1b-8640-cb074cc0408d">
 				<Properties>
-					<Name>ПК</Name>
+					<Name>Реализация</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПК</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="abb91f23-6bf9-4512-b2a9-ddda98d89181">
-				<Properties>
-					<Name>Ноутбук</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Ноутбук</v8:content>
+							<v8:content>Реализация</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

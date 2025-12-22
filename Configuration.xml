@@ -261,9 +261,11 @@
 			<Document>ПриходДенег</Document>
 			<Enum>ТипНоменклатуры</Enum>
 			<Enum>СтатусДокумента</Enum>
+			<Enum>ВидОперации</Enum>
 			<Report>ОтчётПоПродажеТоваров</Report>
 			<Report>ДвижениеИОстаткиТоваров</Report>
 			<Report>ОтчётПоВзаиморасчётам</Report>
+			<InformationRegister>ПоступлениеТоваров</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчёты</AccumulationRegister>
