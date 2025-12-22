@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>55916ca5-9324-49b1-81a9-46051043d7ed</id>
+		<id>d7a5a9b5-6bcd-4f15-a72c-dc75c1d61d17</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>43afe9d8-8c9b-4612-8ab8-d87b290c93e1</id>
+		<id>62f04de8-0cf5-4dd5-a5ee-a30c6c1d61ba</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -63,8 +63,8 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>6c30eb6b-a556-4429-b49b-837d593593a9</id>
-		<size>7</size>
+		<id>92b396e4-aa54-46e1-8867-56b290267d6a</id>
+		<size>6</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -92,24 +92,18 @@
 		<columnsItem>
 			<index>4</index>
 			<column>
-				<formatIndex>9</formatIndex>
+				<formatIndex>8</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>5</index>
 			<column>
-				<formatIndex>9</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>6</index>
-			<column>
-				<formatIndex>9</formatIndex>
+				<formatIndex>8</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>9e1e166f-c6d2-4482-a655-fe91fdd7dacc</id>
+		<id>b917ae15-9dc9-47fd-8bf9-0065fb236ba3</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -120,7 +114,7 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>10</formatIndex>
+				<formatIndex>9</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
@@ -132,7 +126,7 @@
 		<columnsItem>
 			<index>3</index>
 			<column>
-				<formatIndex>11</formatIndex>
+				<formatIndex>10</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -145,16 +139,16 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>55916ca5-9324-49b1-81a9-46051043d7ed</columnsID>
-			<formatIndex>12</formatIndex>
+			<columnsID>d7a5a9b5-6bcd-4f15-a72c-dc75c1d61d17</columnsID>
+			<formatIndex>11</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>13</f>
+					<f>12</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реализация товаров</v8:content>
+							<v8:content>Поступление товаров</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -171,23 +165,23 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>43afe9d8-8c9b-4612-8ab8-d87b290c93e1</columnsID>
+			<columnsID>62f04de8-0cf5-4dd5-a5ee-a30c6c1d61ba</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Склад</v8:content>
+							<v8:content>Номер</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>15</f>
-					<parameter>Склад</parameter>
+					<f>14</f>
+					<parameter>Номер</parameter>
 				</c>
 			</c>
 		</row>
@@ -195,23 +189,23 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>43afe9d8-8c9b-4612-8ab8-d87b290c93e1</columnsID>
+			<columnsID>62f04de8-0cf5-4dd5-a5ee-a30c6c1d61ba</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>15</f>
-					<parameter>Статус</parameter>
+					<f>14</f>
+					<parameter>Контрагент</parameter>
 				</c>
 			</c>
 		</row>
@@ -226,26 +220,15 @@
 	<rowsItem>
 		<index>9</index>
 		<row>
-			<columnsID>6c30eb6b-a556-4429-b49b-837d593593a9</columnsID>
+			<columnsID>92b396e4-aa54-46e1-8867-56b290267d6a</columnsID>
+			<c>
+				<c>
+					<f>15</f>
+				</c>
+			</c>
 			<c>
 				<c>
 					<f>16</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>17</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>№</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>17</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -256,7 +239,7 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -267,7 +250,7 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -278,7 +261,7 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -289,7 +272,7 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -303,41 +286,35 @@
 	<rowsItem>
 		<index>10</index>
 		<row>
-			<columnsID>6c30eb6b-a556-4429-b49b-837d593593a9</columnsID>
+			<columnsID>92b396e4-aa54-46e1-8867-56b290267d6a</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>18</f>
-					<parameter>НомерСтроки</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>19</f>
+					<f>17</f>
 					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>17</f>
 					<parameter>ТипНоменклатуры</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>18</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>18</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>18</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
@@ -353,11 +330,11 @@
 	<rowsItem>
 		<index>13</index>
 		<row>
-			<columnsID>9e1e166f-c6d2-4482-a655-fe91fdd7dacc</columnsID>
+			<columnsID>b917ae15-9dc9-47fd-8bf9-0065fb236ba3</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -368,7 +345,7 @@
 			</c>
 			<c>
 				<c>
-					<f>15</f>
+					<f>14</f>
 					<parameter>Дата</parameter>
 				</c>
 			</c>
@@ -377,29 +354,29 @@
 	<rowsItem>
 		<index>14</index>
 		<row>
-			<columnsID>9e1e166f-c6d2-4482-a655-fe91fdd7dacc</columnsID>
+			<columnsID>b917ae15-9dc9-47fd-8bf9-0065fb236ba3</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>13</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контрагент</v8:content>
+							<v8:content>Статус</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>15</f>
-					<parameter>Контрагент</parameter>
+					<f>14</f>
+					<parameter>Статус</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>21</defaultFormatIndex>
+	<defaultFormatIndex>19</defaultFormatIndex>
 	<height>15</height>
 	<vgRows>15</vgRows>
 	<merge>
@@ -430,7 +407,7 @@
 			<endRow>1</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>55916ca5-9324-49b1-81a9-46051043d7ed</columnsID>
+			<columnsID>d7a5a9b5-6bcd-4f15-a72c-dc75c1d61d17</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -451,7 +428,7 @@
 			<endRow>10</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>6c30eb6b-a556-4429-b49b-837d593593a9</columnsID>
+			<columnsID>92b396e4-aa54-46e1-8867-56b290267d6a</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -486,16 +463,13 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>57</width>
+		<width>96</width>
 	</format>
 	<format>
 		<width>0</width>
 	</format>
 	<format>
-		<width>582</width>
-	</format>
-	<format>
-		<width>86</width>
+		<width>544</width>
 	</format>
 	<format>
 		<width>307</width>
@@ -507,10 +481,10 @@
 		<width>192</width>
 	</format>
 	<format>
-		<width>96</width>
+		<width>57</width>
 	</format>
 	<format>
-		<width>544</width>
+		<width>582</width>
 	</format>
 	<format>
 		<font>0</font>
@@ -538,14 +512,6 @@
 		<verticalAlignment>Center</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<columnSizeChange>QuickChange</columnSizeChange>
-	</format>
-	<format>
-		<border>0</border>
-		<horizontalAlignment>Right</horizontalAlignment>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Block</textPlacement>
-		<fillType>Parameter</fillType>
-		<markNegatives>false</markNegatives>
 	</format>
 	<format>
 		<border>0</border>

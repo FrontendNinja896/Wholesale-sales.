@@ -143,6 +143,28 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="РегистрыСведений" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистры сведений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистры сведений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="РегистрыСведенийРасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<Button name="РегистрПоступленияТоваров" id="39">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.РегистрПоступленияТоваров</CommandName>
+					<ExtendedTooltip name="РегистрПоступленияТоваровРасширеннаяПодсказка" id="40"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
 	<Commands>
@@ -355,6 +377,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Взаиморасчёты</Action>
+		</Command>
+		<Command name="РегистрПоступленияТоваров" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистр поступления товаров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистр поступления товаров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РегистрПоступленияТоваров</Action>
 		</Command>
 	</Commands>
 </Form>
