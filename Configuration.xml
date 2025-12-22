@@ -249,7 +249,7 @@
 			<Role>Руководитель</Role>
 			<Role>Администратор</Role>
 			<CommonModule>НазначениеПрефикса</CommonModule>
-			<CommonModule>РассчётСуммы</CommonModule>
+			<CommonModule>РасчётСуммы</CommonModule>
 			<CommonForm>РабочийСтол</CommonForm>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагент</Catalog>
@@ -260,6 +260,7 @@
 			<Document>РасходДенег</Document>
 			<Document>ПриходДенег</Document>
 			<Enum>ТипНоменклатуры</Enum>
+			<Enum>СтатусДокумента</Enum>
 			<Report>ОтчётПоПродажеТоваров</Report>
 			<Report>ДвижениеИОстаткиТоваров</Report>
 			<Report>ОтчётПоВзаиморасчётам</Report>

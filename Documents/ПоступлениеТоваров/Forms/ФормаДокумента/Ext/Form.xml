@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -32,6 +35,12 @@
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СкладКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Статус" id="44">
+			<DataPath>Объект.Статус</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="46"/>
 		</InputField>
 		<Table name="Товары" id="13">
 			<Representation>List</Representation>
